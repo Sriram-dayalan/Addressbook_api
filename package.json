@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  },
+  "name": "addressbook_api",
+  "version": "1.0.0",
+  "description": "address book (CRUD) with Node Express and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "address",
+    "book",
+    "mongoose",
+    "CRUD"
+  ],
+  "author": "Sriram",
+  "license": "ISC"
+}
